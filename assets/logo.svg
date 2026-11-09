@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="963 Sale">
+  <rect width="100" height="100" fill="#022A23"/>
+  <g fill="#B9A779">
+    <path d="M22 22 H78 L82 34 H18 Z"/>
+    <path d="M18 34 a8 6 0 0 0 16 0 a8 6 0 0 0 16 0 a8 6 0 0 0 16 0 a8 6 0 0 0 16 0"/>
+    <text x="50" y="72" text-anchor="middle" font-family="'Barlow Condensed','Arial Narrow',Arial,sans-serif" font-weight="700" font-size="32" letter-spacing="1">963</text>
+    <text x="50" y="86" text-anchor="middle" font-family="Barlow,Arial,sans-serif" font-weight="600" font-size="10" letter-spacing="5">SALE</text>
+  </g>
+</svg>

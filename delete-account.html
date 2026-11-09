@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Delete Your Account — 963 Sale</title>
+<meta name="description" content="963 Sale is a free marketplace to buy and sell new and used items across Syria.">
+<meta name="theme-color" content="#054239">
+<link rel="icon" type="image/svg+xml" href="assets/logo.svg">
+<link rel="alternate" hreflang="en" href="delete-account.html">
+<link rel="alternate" hreflang="ar" href="ar/delete-account.html">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="./"><img src="assets/logo.svg" alt="" width="36" height="36"><bdi>963 Sale</bdi></a>
+    <nav class="nav" aria-label="Main"><a href="./">Home</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a><a href="contact.html">Contact</a><a href="delete-account.html" aria-current="page">Delete account</a><a class="lang" href="ar/delete-account.html" hreflang="ar" lang="ar">العربية</a></nav>
+  </div>
+</header>
+<main><div class="wrap">
+<h1 class="page-title">Delete Your Account</h1>
+<p class="lead">You can permanently delete your 963 Sale account and its data at any time — directly in the app, or by sending a request below.</p>
+
+<div class="card">
+<h2>Option 1 — Delete in the app (instant)</h2>
+<ol class="steps"><li>Open the 963 Sale app and sign in.</li><li>Go to <strong>Profile → Settings</strong>.</li><li>Tap <strong>Delete account</strong> and confirm with <strong>Delete forever</strong>.</li></ol>
+<p>Your account and data are erased immediately.</p>
+</div>
+
+<div class="card">
+<h2>Option 2 — Request deletion here</h2>
+<p>If you can’t access the app, send this form. Use the email or phone number registered on your account so we can verify that it’s yours. We may contact you to confirm, then delete the account within 30 days at most.</p>
+<form id="delete-form" novalidate>
+<div class="row">
+<label>Name on the account<input name="name" required minlength="2" maxlength="80" autocomplete="name"></label>
+<label>How do you sign in?<select name="method"><option value="email">Email & password</option><option value="google">Google</option><option value="apple">Apple</option></select></label>
+</div>
+<div class="row">
+<label>Account email<input name="email" type="email" maxlength="120" autocomplete="email" dir="ltr"></label>
+<label>Account phone <span class="hint">(email or phone required)</span><input name="phone" type="tel" maxlength="30" autocomplete="tel" dir="ltr"></label>
+</div>
+<label>Reason <span class="hint">(optional)</span><textarea name="reason" maxlength="1000" style="min-height:90px"></textarea></label>
+<label class="hp" aria-hidden="true">Website<input name="website" tabindex="-1" autocomplete="off"></label>
+<label class="check"><input type="checkbox" name="confirm" required>I understand my account and all its data will be permanently deleted and this cannot be undone.</label>
+<button type="submit" class="danger" disabled>Request account deletion</button>
+<div class="status" aria-live="polite"></div>
+</form>
+</div>
+
+<div class="card">
+<h2>What gets deleted</h2>
+<div class="warning">Deletion is permanent and cannot be undone.</div>
+<ul><li>Your profile: name, email, phone numbers and profile photo</li><li>All your listings and their photos, and their view statistics</li><li>Favourites, reports and notifications</li><li>Sign-in methods and device notification tokens</li></ul>
+<h3>What may be kept</h3>
+<p>Messages you sent to our support team may be kept, no longer linked to your account, only as long as needed to handle them or as required by law. Provider backups are overwritten on their normal schedule.</p>
+<p>Just want to remove a listing? Open <em>My listings</em> in the app and delete it — your account stays. See our <a href="privacy.html">Privacy Policy</a> for details.</p>
+</div>
+</div></main>
+<footer class="site-footer">
+  <div class="wrap">
+    <span>© 2026 963 Sale. All rights reserved.</span>
+    <nav><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a><a href="contact.html">Contact</a><a href="delete-account.html">Delete account</a></nav>
+  </div>
+</footer>
+<script src="assets/forms.js" defer></script>
+<script>
+(function(){var f=document.getElementById('delete-form');var c=f.elements.confirm;var b=f.querySelector('button');c.addEventListener('change',function(){b.disabled=!c.checked;});f.addEventListener('reset',function(){setTimeout(function(){b.disabled=true;});});})();
+</script>
+</body>
+</html>
