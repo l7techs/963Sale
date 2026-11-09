@@ -170,6 +170,8 @@ button:disabled { opacity: .55; cursor: not-allowed; }
 .status.ok { display: block; background: var(--ok-bg); color: var(--ok); }
 .status.err { display: block; background: var(--danger-bg); color: var(--danger); }
 
+.email-link { font-size: 20px; font-weight: 600; word-break: break-all; }
+
 /* ── Footer ── */
 .site-footer { border-top: 1px solid var(--border); background: var(--surface); padding: 28px 0; font-size: 14px; color: var(--muted); }
 .site-footer .wrap { display: flex; gap: 16px; flex-wrap: wrap; justify-content: space-between; align-items: center; }
